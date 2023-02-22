@@ -1,18 +1,16 @@
-import Header from "./Header";
-import Navbar from "./Navbar";
-import TodosLogic from "./TodosLogic";
+import Header from './Header';
+import Navbar from './Navbar';
+import TodosLogic from './TodosLogic';
 
-const TodoApp = () => {
-    return (
-        <div className="wrapper">
-            <div className="todos">
-            <Navbar/>
-        <Header />
-        <TodosLogic />
-            </div>
-        
-        </div>
-    )
-};
+const TodoApp = () => (
+  <div className="wrapper">
+    <div className="todos">
+      <Navbar />
+      <Header />
+      <TodosLogic />
+    </div>
 
-export default TodoApp
+  </div>
+);
+
+export default TodoApp;

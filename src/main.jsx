@@ -1,12 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import TodoApp from "./Components/TodoApp";
-import './styles/app.css'
-
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import TodoApp from './Components/TodoApp';
+import './styles/app.css';
 
 const domContainer = document.getElementById('root');
 const root = ReactDOM.createRoot(domContainer);
 root.render(
-<React.StrictMode>
-  <TodoApp />
-  </React.StrictMode>);
+  <React.StrictMode>
+    <TodoApp />
+  </React.StrictMode>,
+);
